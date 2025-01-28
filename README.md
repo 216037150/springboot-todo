@@ -20,14 +20,12 @@ This is a simple Todo Application backend built using Spring Boot. It exposes a 
 ### Endpoints
 
 #### 1. **GET /api/todos**
-
 Fetches a list of all todo items.
 
 **Response:**
 - `200 OK` - Returns a list of all todo items in the database.
 
 #### 2. **POST /api/todos/post**
-
 Creates a new todo item.
 
 **Request Body:**
@@ -36,4 +34,3 @@ Creates a new todo item.
   "title": "Buy groceries",
   "isDone": false
 }
-
